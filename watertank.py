@@ -1,19 +1,4 @@
-'''
-LICENSE AGREEMENT
-In relation to this Python file:
-1. Copyright of this Python file is owned by the author: Mark Misin
-2. This Python code can be freely used and distributed
-3. The copyright label in this Python file such as
-copyright=ax_main.text(x,y,'© Mark Misin Engineering',size=z)
-that indicate that the Copyright is owned by Mark Misin MUST NOT be removed.
 
-WARRANTY DISCLAIMER!
-This Python file comes with absolutely NO WARRANTY! 
-In no event can the author of this Python file be held responsible
-for whatever happens in relation to this Python file.
-For example, if there is a bug in the code and because of that a project,
-invention, or whatever it is used for fails - the author is NOT RESPONSIBLE!
-'''
 
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
@@ -147,7 +132,7 @@ plt.xticks(np.arange(-radius,radius+1,radius))
 plt.yticks(np.arange(bottom,final_volume+dVol,dVol))
 plt.ylabel('tank volume [m^3]')
 plt.title('Tank 1')
-copyright=ax0.text(-radius*width_ratio,(final_volume+10)*3.2/3,'© Mark Misin Engineering',size=12)
+copyright=ax0.text(-radius*width_ratio,(final_volume+10)*3.2/3,'Lalit',size=12)
 
 # Create object for Tank2
 ax1=fig.add_subplot(gs[0,1],facecolor=(0.9,0.9,0.9))
