@@ -1,4 +1,4 @@
-# Water-tank-and-magnetic-train-simulation
+# Water-tank-and-magnetic-train
 
 Final Semester project of engineering. 
 
