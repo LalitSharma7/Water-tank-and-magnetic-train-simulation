@@ -4,3 +4,4 @@ Final Semester project of engineering.
 
      -Water tank using proportional controllers. 
      -Magnetic train using PID controller and simulation in python.
+     -Python animation is used to show the result.
